@@ -3,14 +3,6 @@ import Navbar from "./components/navbar";
 import Card from "./components/card";
 import { default as initialCards } from "./CardsData";
 
-import california from "./images/california.png";
-import dragon from "./images/dragon.png";
-import dynamite from "./images/dynamite.png";
-import philadelphia from "./images/philadelphia.png";
-import rainbow from "./images/rainbow.png";
-import shrimp from "./images/shrimp.png";
-import logo from "./images/logo.png";
-
 function App() {
   const [cards, setCards] = useState(initialCards);
 
